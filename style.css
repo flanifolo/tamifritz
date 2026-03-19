@@ -1,0 +1,110 @@
+/*TODO: Add your styles */
+.projects-bg {
+    background-image: url("images/3_projects.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    z-index: -1;
+}
+
+.homepage-bg {
+    background-image: url("images/1_Home_page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    z-index: -1;
+}
+
+.contact-bg {
+    background-image: url("images/6_contact.png");
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 5px 20px;
+}
+
+.fa-github {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* Carousel styles */
+.carousel-container {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+#pnumber {
+    margin-bottom: 40px;
+}
+
+.site-footer {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.contact-panel {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.contact-title {
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d3e0e1;
+}
